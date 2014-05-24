@@ -5,7 +5,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
 	set <- function(y){	
 		x <<- y                         
-		inv <<- NULL            ##Ressting to NULL each time the input matrix is changed
+		inv <<- NULL            ##Resetting to NULL each time the input matrix is changed
 	}
 
 	get <- function() x		
