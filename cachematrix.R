@@ -23,8 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Function to calculate the inverse of a matrix. If the inverse is already cached, it returns the cached value.
-## Assumption here that the input matrix is a square, non-singular matrix.
+## Function to calculate the inverse of a matrix. If the inverse is already cached, it returns the cached matrix.
+## Assumption here is that the input matrix is a square, non-singular matrix.
 
 cacheSolve <- function(x) {
         
