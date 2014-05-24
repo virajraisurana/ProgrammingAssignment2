@@ -1,4 +1,4 @@
-## The two functions take a square, non-singular matrix as input and calcualte and cache its inverse.
+## The two functions collectively perform the activity of taking a square, non-singular matrix as input and calcualting and caching its inverse.
 
 ## Function to create a list of functions to cache the matrix and its inverse
 makeCacheMatrix <- function(x = matrix()) {
